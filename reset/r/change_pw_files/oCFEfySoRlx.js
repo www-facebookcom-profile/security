@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["A6Bs8"]); }
+
+__d("MLtgTranslationPreferencesBootloader",["Bootloader","EventListener"],(function a(b,c,d,e,f,g,h,i){var j=void 0,k=void 0,l=void 0,m=void 0,n=void 0,o={bootloadDropdown:function p(q,r,s,t,u){i.listen(q,"click",function(){h.loadModules(["React","ReactDOM","DOMContainer.react","MLtgTranslationPreferences.react"],function(v,w,j,k){l=v;m=w;if(!n)m.render(l.createElement(k,{translationData:s,originalMessageElem:t,showDropdown:true,mLanguageSettingsURI:u},l.createElement(j,null,r)),q)},"MLtgTranslationPreferencesBootloader")})}};f.exports=o}),null);
+__d("MRecoverPasswordController",["DOM"],(function a(b,c,d,e,f,g,h){f.exports={setFocus:function i(j){h.find(j,"input").focus()}}}),null);
